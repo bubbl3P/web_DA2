@@ -12,7 +12,7 @@ class AuthController extends Controller
         return (view('auth.login'));
     }
     public function processLogin(Request $request){
-        try{
+            try{
             $user = User::query()
                 ->where('email', $request->get('email'))
                 ->where('password', $request->get('password'))

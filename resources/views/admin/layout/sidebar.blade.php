@@ -24,7 +24,7 @@
                         <a href="#">Order management</a>
                     </li>
                     <li>
-                        <a href="">Category List</a>
+                        <a href="{{route('category.index')}}">Category List</a>
                     </li>
                     <li>
                         <a href="#">Statistical</a>
